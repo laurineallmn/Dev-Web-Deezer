@@ -30,6 +30,21 @@ img {
     max-width: 100%;
 }
 
+.image_de_téléphone {
+    height: 100vh;
+}
+
+.texte_telephone {
+    text-align: right;
+    color: white;
+    background-color: #000000;
+    background-image: url("../Elements home page/téléphone étoilé.png");
+    background-position: left;
+    background-size:100vh;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
 /* Barre de Navigation */
 .barre_de_navigation {
     padding: 20px;
