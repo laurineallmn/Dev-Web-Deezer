@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --vert-spotify: #00ff53;
+    --vert-sombre: #0c2414;
+    --gris-foncé: #111211;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    background: black ;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* Barre de Navigation */
+.barre_de_navigation {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.barre_de_navigation .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.barre_de_navigation .menu_principal ul {
+    display: flex; 
+    margin: 8px;
+}
+
+.texte_navbar {
+    padding: 10px;
+    margin: 0px 10px ;
+    display: block;
+    font-weight:900;
+}
+
+.logo {
+    min-width: 220px;
+}
+
+/* Classes utilitaires */
+
+.container {
+    max-width: 1500px ;
+    margin: 0 auto;
+    padding: 0 15px ;
+}
+
+
+.container-small {
+    max-width: 800px ;
+    margin: 0 auto;
+    padding: 0 15px ;
+}
+
+/* Boutons */
+.bouton_navbar {
+    display: inline-block;
+    background: var(--gris-foncé) ;
+    border-radius: 100px;
+    padding: 10px 15px;
+    margin: 0px 15px ;
+    font-weight:900;
+    font-size: 20px;
+    transition: 0.5s;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+.bouton_navbar:hover{
+    color: #00ff53;
+    background-color: #0c2414;
+}
+.grand_texte 
+{
+    color: #fff;
+    text-align: right;
+}
+
+.image_de_téléphone
+{
+    display: flex;
+}
