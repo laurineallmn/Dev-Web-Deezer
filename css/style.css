@@ -14,7 +14,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  background-color: black;
+  background: black;
 }
 
 a {
@@ -32,7 +32,7 @@ img {
 
 /* Barre de Navigation */
 .barre_de_navigation {
-  padding: 20px;
+  margin-top: 20px;
   font-size: 20px;
 }
 
@@ -43,13 +43,11 @@ img {
 
 .barre_de_navigation .menu_principal ul {
   display: flex;
-  margin: 8px;
+  margin-top: 20px;
 }
 
 .texte_navbar {
-  padding: 10px;
-  margin: 0px 10px;
-  display: block;
+  margin: 0px 5px;
   font-weight: 900;
 }
 
@@ -57,12 +55,10 @@ img {
   min-width: 220px;
 }
 
-/* Classes utilitaires */
-
 .container {
   max-width: 1500px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .container-small {
@@ -73,11 +69,10 @@ img {
 
 /* Boutons */
 .bouton_navbar {
-  display: inline-block;
   background: var(--gris-foncé);
   border-radius: 100px;
   padding: 10px 15px;
-  margin: 0px 15px;
+  margin: 0px 10px;
   font-weight: 900;
   font-size: 20px;
   transition: 0.5s;
@@ -90,38 +85,38 @@ img {
   color: #00ff53;
   background-color: #0c2414;
 }
-.coupDeCoeur h1 {
+.grand_texte {
   color: #fff;
-  font-size: 60px;
-}
-.coupDeCoeur {
-  text-align: center;
-  width: 80%;
-  margin: auto;
-  padding-top: 50px;
-}
-.troisColonnes {
-  display: flex;
-  padding-top: 40px;
-  justify-content: space-between;
+  text-align: right;
 }
 
-.albumBlur {
-  padding: 0px 40px;
+.texteEttelephone {
+  background-color: #000000;
+  background-image: url("../Elements home page/téléphone étoilé.png");
+  background-position: left;
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  height: 100vh;
 }
 
-.titreAlbum {
-  color: #fff;
+.texteEttelephone h1 {
+  text-align: right;
+  color: white;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 75px;
+  padding-top: 210px;
 }
 
-.texteAlbum {
-  color: #fff;
-  text-align: justify;
-  max-width: 400px;
-  margin-right: 80px;
+.EnBoucleGras {
+  font-weight: 700;
+  color: var(--vert-spotify);
 }
 
-.troisColonnesDeTexte {
-  display: flex;
-  margin-left: 20px;
+.texteEttelephone h2 {
+  text-align: right;
+  color: white;
+  font-weight: 300;
+  font-size: 25px;
+  margin-right: 95px;
 }
