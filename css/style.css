@@ -34,6 +34,7 @@ img {
 .barre_de_navigation {
   margin-top: 20px;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .barre_de_navigation .container {
@@ -92,9 +93,9 @@ img {
 
 .texteEttelephone {
   background-color: #000000;
-  background-image: url("../Elements home page/téléphone étoilé.png");
+  background-image: url("../Elements home page/téléphone\ étoilé\ entier.png");
   background-position: left;
-  background-size: 100vh;
+  background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -104,7 +105,7 @@ img {
   color: white;
   font-weight: 400;
   line-height: 1;
-  font-size: 75px;
+  font-size: 72px;
   padding-top: 210px;
 }
 
@@ -119,4 +120,27 @@ img {
   font-weight: 300;
   font-size: 25px;
   margin-right: 95px;
+}
+
+.coupDeCoeur {
+  color: #fff;
+  background-color: #000000;
+  background-image: url("../Elements home page/fond\ noir\ 2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: block;
+  margin-top: 50px;
+}
+
+.notreSélection {
+  color: #fff;
+  background-color: #000000;
+  background-image: url("../Elements home page/cercle\ flou\ bonne\ couleure\ 2.png");
+  background-position: right;
+  background-size: 100vp;
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: block;
 }
