@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <title>Page AJAR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8">
+    <link href="index_ajar.css" rel="stylesheet" />
+</head>
+
+
+<header>
+</header>
+
+<body>
+    <div class="bandeau">
+        <h1>AJAR</h1>
+        <img src="../photo/ajar_4_bandeau.jpg" alt="photo Ajar">
+    </div>
+    <div class="background">
+        <div class="container">
+            <!-- <p id="bio">
+
+            </p> -->
+        </div>
+    </div>
+    <script>
+        // fetch("https://www.theaudiodb.com/api/v1/json/2/artist.php?i=177705")
+        //     .then(response => response.json())
+        //     .then(result => {
+        //         console.log(result.artists[0].strBiographyFR);
+        //         document.getElementById("bio").textContent = result.artists[0].strBiographyFR;
+        //     })
+
+        let emplacement = document.querySelector(".container");
+        fetch("https://www.theaudiodb.com/api/v1/json/2/artist.php?i=177705")
+            .then(response => response.json())
+            .then(result => {
+                console.log(result.artists[0].strBiographyFR);
+                let texte = document.createElement("p");
+                textContent = result.artists[0].strBiographyFR;
+                texte.innerHTML = textContent; //on met le content dans le p)
+                emplacement.appendChild(texte); //(on ajoute le p rempli dans le container)
+            })
+    </script>
+</body>
+
+<footer>
+</footer>
+
+</html>
