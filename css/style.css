@@ -50,6 +50,7 @@ img {
 .texte_navbar {
   margin: 0px 5px;
   font-weight: 900;
+  white-space: nowrap;
 }
 
 .logo {
@@ -107,6 +108,8 @@ img {
   line-height: 1;
   font-size: 72px;
   padding-top: 210px;
+  white-space: nowrap;
+  margin-left: 620px;
 }
 
 .EnBoucleGras {
@@ -114,12 +117,14 @@ img {
   color: var(--vert-spotify);
 }
 
-.texteEttelephone h2 {
+.texteEttelephone p {
   text-align: right;
   color: white;
   font-weight: 300;
   font-size: 25px;
-  margin-right: 95px;
+  margin-right: 80px;
+  white-space: nowrap;
+  margin-left: 800px;
 }
 
 .coupDeCoeur {
@@ -129,9 +134,26 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 96vh;
   display: block;
   margin-top: 50px;
+}
+
+.troisColonnes {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px 10px;
+}
+
+.uneDesColonnes {
+  padding: 0px 30px;
+}
+
+.coupDeCoeur h2 {
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 50px;
 }
 
 .notreSélection {
