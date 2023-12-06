@@ -112,9 +112,23 @@ img {
   margin-left: 620px;
 }
 
-.EnBoucleGras {
+#enBoucle {
   font-weight: 700;
   color: var(--vert-spotify);
+}
+
+#bouton_decouverte {
+  font-size: 1.8vw;
+  font-weight: 400;
+  background: black;
+  border-width: 0.1vw;
+  border-style: solid;
+  border-radius: 100px;
+  border-color: white;
+  padding: 10px 15px;
+  margin: 0px 35px;
+  transition: 0.5s;
+  cursor: pointer;
 }
 
 .texteEttelephone p {
