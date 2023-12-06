@@ -131,6 +131,12 @@ img {
   cursor: pointer;
 }
 
+#bouton_decouverte:hover {
+  color: #00ff53;
+  border-color: #00ff53;
+  padding: 12px 17px;
+}
+
 .texteEttelephone p {
   text-align: right;
   color: white;
@@ -161,12 +167,20 @@ img {
 }
 
 .uneDesColonnes {
-  padding: 0px 30px;
+  padding: 0px 40px;
+}
+
+.uneDesColonnes h3 {
+  font-size: 25px;
+}
+
+.uneDesColonnes p {
+  text-align: justify;
 }
 
 .coupDeCoeur h2 {
   text-align: center;
-  padding: 30px 0px;
+  padding: 20px 0px;
   font-size: 50px;
 }
 
