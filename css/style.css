@@ -30,53 +30,11 @@ img {
   max-width: 100%;
 }
 
-.image_de_téléphone {
-  height: 100vh;
-}
-
-.texte_telephone {
-  text-align: right;
-  color: white;
-  font-weight: 900;
-  font-size: 3.2vw;
-  padding-top: 18vw;
-  background-color: #000000;
-  background-image: url("../Elements home page/téléphone étoilé.png");
-  background-position: left;
-  background-size: 100vh;
-  background-repeat: no-repeat;
-  height: 100vh;
-}
-
-#enboucle {
-  font-weight: bolder;
-  color: #00ff53;
-}
-
-#bouton_decouverte {
-  font-size: 1.8vw;
-  font-weight: 500;
-  background: var(--gris-foncé);
-  border-width: 0.3vw;
-  border-style: solid;
-  border-radius: 100px;
-  border-color: white;
-  padding: 10px 15px;
-  margin: 0px 15px;
-  transition: 0.5s;
-  cursor: pointer;
-}
-
-#bouton_decouverte:hover {
-  color: #00ff53;
-  background-color: #0c2414;
-  border-color: #00ff53;
-}
-
 /* Barre de Navigation */
 .barre_de_navigation {
-  padding: 20px;
+  margin-top: 20px;
   font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .barre_de_navigation .container {
@@ -86,7 +44,7 @@ img {
 
 .barre_de_navigation .menu_principal ul {
   display: flex;
-  margin: 8px;
+  margin-top: 20px;
 }
 
 .texte_navbar {
@@ -99,12 +57,10 @@ img {
   min-width: 220px;
 }
 
-/* Classes utilitaires */
-
 .container {
   max-width: 1500px;
   margin: 0 auto;
-  padding: 0 15px;
+  padding: 0 20px;
 }
 
 .container-small {
@@ -115,11 +71,10 @@ img {
 
 /* Boutons */
 .bouton_navbar {
-  display: inline-block;
   background: var(--gris-foncé);
   border-radius: 100px;
   padding: 10px 15px;
-  margin: 0px 15px;
+  margin: 0px 10px;
   font-weight: 900;
   font-size: 20px;
   transition: 0.5s;
@@ -153,6 +108,8 @@ img {
   line-height: 1;
   font-size: 72px;
   padding-top: 210px;
+  white-space: nowrap;
+  margin-left: 620px;
 }
 
 .EnBoucleGras {
@@ -160,12 +117,14 @@ img {
   color: var(--vert-spotify);
 }
 
-.texteEttelephone h2 {
+.texteEttelephone p {
   text-align: right;
   color: white;
   font-weight: 300;
   font-size: 25px;
-  margin-right: 95px;
+  margin-right: 80px;
+  white-space: nowrap;
+  margin-left: 800px;
 }
 
 .coupDeCoeur {
@@ -175,9 +134,26 @@ img {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  height: 100vh;
+  height: 96vh;
   display: block;
   margin-top: 50px;
+}
+
+.troisColonnes {
+  display: grid;
+  grid-auto-rows: 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 0px 10px;
+}
+
+.uneDesColonnes {
+  padding: 0px 30px;
+}
+
+.coupDeCoeur h2 {
+  text-align: center;
+  padding: 30px 0px;
+  font-size: 50px;
 }
 
 .notreSélection {
