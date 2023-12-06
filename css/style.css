@@ -146,23 +146,23 @@ img {
   /* margin-left: 800px; */
 }
 
-@media screen and (max-width: 700px) {
-  .texteEttelephone {
-    background-color: #000000;
-    background-image: none;
-    height: 60vh;
-  }
-  .texteEttelephone h1 {
-    text-align: center;
-    font-size: 8vw;
-    font-weight: 500;
-  }
-  .texteEttelephone p {
-    text-align: center;
-    color: white;
-    margin-right: 3vw;
-    white-space: nowrap;
-  }
+@media screen and (max-width:900px) {
+    .texteEttelephone {
+        background-color: #000000;
+        background-image: none;
+        height: 60vh;
+    }
+    .texteEttelephone h1 {
+        text-align: center;
+        font-size: 8vw;
+        font-weight: 500;
+    }
+    .texteEttelephone p {
+        text-align: center;
+        color: white;
+        margin-right: 3vw;
+        white-space: nowrap;
+    }
 
   #bouton_decouverte {
     font-size: 4vw;
@@ -191,9 +191,12 @@ img {
 
 .uneDesColonnes {
   padding: 0px 40px;
-  height: 550px;
-  width: 350px;
-  margin: 3vw;
+  height: 650px;
+  width: 400px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 1vw;
+  margin-right: 1vw;
 }
 
 .uneDesColonnes h3 {

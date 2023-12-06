@@ -1,0 +1,132 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+--vert-spotify: #00ff53;
+--vert-sombre: #0c2414;
+--gris-foncé: #111211;
+}
+
+body {
+font-family: "Montserrat", sans-serif;
+font-size: 16px;
+line-height: 1.5;
+background: black;
+}
+
+a {
+text-decoration: none;
+color: #fff;
+}
+
+ul {
+list-style: none;
+}
+
+img {
+max-width: 100%;
+}
+
+/* Barre de Navigation */
+.barre_de_navigation {
+margin-top: 20px;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.barre_de_navigation .container {
+display: flex;
+justify-content: space-between;
+}
+
+.barre_de_navigation .menu_principal ul {
+display: flex;
+margin-top: 20px;
+}
+
+.texte_navbar {
+margin: 0px 5px;
+font-weight: 900;
+white-space: nowrap;
+}
+
+.logo {
+min-width: 220px;
+}
+
+.container {
+max-width: 1500px;
+margin: 0 auto;
+padding: 0 20px;
+}
+
+.container-small {
+max-width: 800px;
+margin: 0 auto;
+padding: 0 15px;
+}
+
+/* Boutons */
+.bouton_navbar {
+background: var(--gris-foncé);
+border-radius: 100px;
+padding: 10px 15px;
+margin: 0px 10px;
+font-weight: 900;
+font-size: 20px;
+transition: 0.5s;
+text-decoration: none;
+border: none;
+cursor: pointer;
+}
+
+.bouton_navbar:hover {
+color: #00ff53;
+background-color: #0c2414;
+}
+
+
+
+.coupDeCoeur {
+color: #fff;
+background-color: #000000;
+/* background-image: url("../Elements home page/fond\ noir\ 2.png");
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat; */
+height: 96vh;
+display: block;
+margin-top: 50px;
+}
+
+.quatreColonnes {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-around;
+}
+
+.uneDesColonnes {
+padding: 0px 40px;
+height: 300px;
+width: 650px;
+margin-top: 3vh;
+margin-bottom: 3vh;
+margin-left: 1vw;
+margin-right: 1vw;
+}
+
+.uneDesColonnes p {
+text-align: justify;
+}
+
+.coupDeCoeur h2 {
+text-align: center;
+padding: 20px 0px;
+font-size: 50px;
+}
+
+
+
