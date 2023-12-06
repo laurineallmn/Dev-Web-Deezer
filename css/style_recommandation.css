@@ -102,7 +102,7 @@ display: block;
 margin-top: 50px;
 }
 
-.troisColonnes {
+.quatreColonnes {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-around;
