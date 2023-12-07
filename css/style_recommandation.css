@@ -1,163 +1,184 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
---vert-spotify: #00ff53;
---vert-sombre: #0c2414;
---gris-foncé: #111211;
+  --vert-spotify: #00ff53;
+  --vert-sombre: #0c2414;
+  --gris-foncé: #111211;
 }
 
 body {
-font-family: "Montserrat", sans-serif;
-font-size: 16px;
-line-height: 1.5;
-background: black;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  background: black;
 }
 
 a {
-text-decoration: none;
-color: #fff;
+  text-decoration: none;
+  color: #fff;
 }
 
 ul {
-list-style: none;
+  list-style: none;
 }
 
 img {
-max-width: 100%;
+  max-width: 100%;
 }
 
 /* Barre de Navigation */
 .barre_de_navigation {
-margin-top: 20px;
-font-size: 20px;
-margin-bottom: 10px;
+  margin-top: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
 }
 
 .barre_de_navigation .container {
-display: flex;
-justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .barre_de_navigation .menu_principal ul {
-display: flex;
-margin-top: 20px;
+  display: flex;
+  margin-top: 20px;
 }
 
 .texte_navbar {
-margin: 0px 5px;
-font-weight: 900;
-white-space: nowrap;
+  margin: 0px 5px;
+  font-weight: 900;
+  white-space: nowrap;
 }
 
 .logo {
-min-width: 220px;
+  min-width: 220px;
 }
 
 .container {
-max-width: 1500px;
-margin: 0 auto;
-padding: 0 20px;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 0 20px;
 }
 
 .container-small {
-max-width: 800px;
-margin: 0 auto;
-padding: 0 15px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 /* Boutons */
 .bouton_navbar {
-background: var(--gris-foncé);
-border-radius: 100px;
-padding: 10px 15px;
-margin: 0px 10px;
-font-weight: 900;
-font-size: 20px;
-transition: 0.5s;
-text-decoration: none;
-border: none;
-cursor: pointer;
+  background: var(--gris-foncé);
+  border-radius: 100px;
+  padding: 10px 15px;
+  margin: 0px 10px;
+  font-weight: 900;
+  font-size: 20px;
+  transition: 0.5s;
+  text-decoration: none;
+  border: none;
+  cursor: pointer;
 }
 
 .bouton_navbar:hover {
-color: #00ff53;
-background-color: #0c2414;
+  color: #00ff53;
+  background-color: #0c2414;
 }
-
 
 /* Contenu de la page */
 
 .coupDeCoeur {
-color: #fff;
-background-color: #000000;
-display: block;
-margin-top: 50px;
+  color: #fff;
+  background-color: #000000;
+  display: block;
+  margin-top: 20px;
+  margin-bottom: 30px;
 }
 
 .quatreColonnes {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
 
 .uneDesColonnes {
-padding: 0px 40px;
-height: 300px;
-width: 650px;
-margin-top: 3vh;
-margin-bottom: 3vh;
-margin-left: 1vw;
-margin-right: 1vw;
+  padding: 0px 5px;
+  height: 300px;
+  width: 650px;
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  transition: 0.3s;
+}
+
+#Artiste1:hover {
+  filter: brightness(115%);
+  padding: 0px 0px;
+}
+#Artiste2:hover {
+  filter: brightness(130%);
+  padding: 0px 0px;
+}
+#Artiste3:hover {
+  filter: brightness(110%);
+  padding: 0px 0px;
 }
 
 .uneDesColonnes p {
-text-align: justify;
+  text-align: justify;
 }
 
 .coupDeCoeur h2 {
-text-align: center;
-padding: 20px 0px;
-font-size: 50px;
+  text-align: center;
+  padding: 15px 0px;
+  font-size: 70px;
+  transition: 0.7s;
 }
 
+.coupDeCoeur h2:hover {
+  color: var(--vert-spotify);
+  font-size: 80px;
+  cursor: pointer;
+  text-shadow: 0px 0px 28px #016b24;
+}
 
 /* Footer */
 
 .footer {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-    gap: 3.5rem;
-    background-color: var(--gris-foncé);
-  }
-  
-  section {
-    list-style: none;
-    padding: 40px 5% 40px;
-    justify-content: space-between;
-  }
-  
-  .contenuDuFooter h4 {
-    color: #00ff53;
-    font-size: 22px;
-    font-weight: 700;
-  }
-  
-  .contenuDuFooter p {
-    color: #ffffff;
-    font-size: 20px;
-    font-weight: 500;
-    cursor: pointer;
-    transition: 0.4s;
-  }
-  
-  .contenuDuFooter p:hover {
-    color: #cacaca;
-  }
-  
-  #logoFooter {
-    padding-top: 10px;
-  }
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 3.5rem;
+  background-color: var(--gris-foncé);
+}
+
+section {
+  list-style: none;
+  padding: 40px 5% 40px;
+  justify-content: space-between;
+}
+
+.contenuDuFooter h4 {
+  color: #00ff53;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.contenuDuFooter p {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.contenuDuFooter p:hover {
+  color: #cacaca;
+}
+
+#logoFooter {
+  padding-top: 10px;
+}
