@@ -30,6 +30,8 @@ img {
   max-width: 100%;
 }
 
+
+
 /* Barre de Navigation */
 .barre_de_navigation {
   margin-top: 20px;
@@ -68,6 +70,11 @@ img {
   margin: 0 auto;
   padding: 0 15px;
 }
+
+@media screen and (max-width: 900px) {
+
+}
+
 
 /* Boutons */
 .bouton_navbar {
@@ -229,6 +236,8 @@ img {
   display: block;
 }
 
+/* Footer */
+
 .footer {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
@@ -263,6 +272,8 @@ section {
 #logoFooter {
   padding-top: 10px;
 }
+
+
 
 /* Page de contact*/
 
