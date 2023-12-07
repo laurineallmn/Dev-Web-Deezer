@@ -126,7 +126,7 @@ img {
   border-style: solid;
   border-radius: 100px;
   border-color: white;
-  padding: 0.8vw 1.3vw;
+  padding: 0.7vw 1.3vw;
   margin: 0vw 3.5vw;
   transition: 0.5s;
   cursor: pointer;
@@ -146,23 +146,23 @@ img {
   /* margin-left: 800px; */
 }
 
-@media screen and (max-width:900px) {
-    .texteEttelephone {
-        background-color: #000000;
-        background-image: none;
-        height: 60vh;
-    }
-    .texteEttelephone h1 {
-        text-align: center;
-        font-size: 8vw;
-        font-weight: 500;
-    }
-    .texteEttelephone p {
-        text-align: center;
-        color: white;
-        margin-right: 3vw;
-        white-space: nowrap;
-    }
+@media screen and (max-width: 900px) {
+  .texteEttelephone {
+    background-color: #000000;
+    background-image: none;
+    height: 60vh;
+  }
+  .texteEttelephone h1 {
+    text-align: center;
+    font-size: 8vw;
+    font-weight: 500;
+  }
+  .texteEttelephone p {
+    text-align: center;
+    color: white;
+    margin-right: 3vw;
+    white-space: nowrap;
+  }
 
   #bouton_decouverte {
     font-size: 4vw;
@@ -174,11 +174,11 @@ img {
 .coupDeCoeur {
   color: #fff;
   background-color: #000000;
-  /* background-image: url("../Elements home page/fond\ noir\ 2.png");
-  background-position: center;
+  /*background-image: url("../Elements home page/Slice\ trois\ cercle\ flou\ petit.png");
   background-size: cover;
-  background-repeat: no-repeat; */
-  height: 96vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 80vh; */
   display: block;
   margin-top: 50px;
 }
@@ -190,17 +190,17 @@ img {
 }
 
 .uneDesColonnes {
-  padding: 0px 40px;
+  padding: 0px 20px;
   height: 650px;
   width: 400px;
   margin-top: 3vh;
-  margin-bottom: 3vh;
+  margin-bottom: 1vh;
   margin-left: 1vw;
   margin-right: 1vw;
 }
 
 .uneDesColonnes h3 {
-  font-size: 25px;
+  font-size: 28px;
 }
 
 .uneDesColonnes p {
@@ -211,6 +211,11 @@ img {
   text-align: center;
   padding: 20px 0px;
   font-size: 50px;
+  transition: 0.5s;
+}
+.coupDeCoeur h2:hover {
+  color: var(--vert-spotify);
+  font-size: 55px;
 }
 
 .notreSélection {
