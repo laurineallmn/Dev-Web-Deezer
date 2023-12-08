@@ -74,18 +74,22 @@ img {
     text-align: center;
     display: flex;
     flex-direction: column;
+    column-gap: 10px;
   }
 
   .barre_de_navigation .menu_principal ul {
     display: flex;
     flex-direction: column;
-    /* margin-top: 20px; */
-    /* justify-content: space-around; */
+    column-gap: 10px;
   }
 
   #deuxPoints {
     display: none;
   }
+
+  /* .menu_principal{
+     column-gap: 10px; 
+  } */
 }
 
 /* Boutons */
