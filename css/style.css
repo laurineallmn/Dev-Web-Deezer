@@ -213,7 +213,7 @@ img {
   height: 650px;
   width: 400px;
   margin-top: 3vh;
-  margin-bottom: 1vh;
+  margin-bottom: 5vh;
   margin-left: 1vw;
   margin-right: 1vw;
 }
@@ -356,5 +356,5 @@ section {
 }
 
 .uneDesColonnes a:hover {
-  filter: brightness(119%);
+  filter: brightness(110%);
 }
