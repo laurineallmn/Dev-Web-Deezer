@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <title>Discovery - Ajar</title>
+    <title>Discovery - Terrenoire</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
     <link href="index_ajar.css" rel="stylesheet" />
@@ -51,8 +51,8 @@
 
   <body>
     <div class="bandeau-chanteur">
-      <h1>AJAR</h1>
-      <img src="ajar_horizontal (1).jpg" alt="photo artiste" />
+      <h1>Terrenoire</h1>
+      <img src="bandeau terrenoire.jpg" alt="photo artiste" />
     </div>
 
     <div class="container-body">
@@ -60,7 +60,7 @@
         <div id="photo-profil">
           <!-- image artiste depuis API -->
         </div>
-        <h3 id="artiste-presentation">&nbsp Ajar c'est...</h3>
+        <h3 id="artiste-presentation">&nbsp Terrenoire c'est...</h3>
         <div class="data-chanteur">
           <div class="abonnes-yt">
             <span id="data-artist-1">68 MILLE</span>
@@ -71,7 +71,7 @@
             <p>MORCEAUX</p>
           </div>
           <div class="style-artist">
-            <span id="style">RAP</span>
+            <span id="style">Indie pop</span>
           </div>
         </div>
 
@@ -133,26 +133,26 @@
       //     })
 
       let emplacement1 = document.querySelector("#photo-profil");
-      fetch("https://www.theaudiodb.com/api/v1/json/2/artist.php?i=177705")
-        .then((response) => response.json())
-        .then((result) => {
-          console.log(result.artists[0].strArtistThumb);
-          let image = document.createElement("img");
-          imageContent = result.artists[0].strArtistThumb;
-          image.src = imageContent;
-          emplacement1.appendChild(image);
-        });
+        fetch("https://www.theaudiodb.com/api/v1/json/2/artist.php?i=170446")
+            .then(response => response.json())
+            .then(result => {
+                console.log(result.artists[0].strArtistThumb);
+                let image = document.createElement("img");
+                imageContent = result.artists[0].strArtistThumb;
+                image.src = imageContent;
+                emplacement1.appendChild(image);
+            })
 
-      let emplacement2 = document.querySelector(".petit-container-droite");
-      fetch("https://www.theaudiodb.com/api/v1/json/2/artist.php?i=177705")
-        .then((response) => response.json())
-        .then((result) => {
-          console.log(result.artists[0].strBiographyFR);
-          let texte = document.createElement("p");
-          textContent = result.artists[0].strBiographyFR;
-          texte.innerHTML = textContent; //on met le content dans le p)
-          emplacement2.appendChild(texte); //(on ajoute le p rempli dans le container)
-        });
+            let emplacement2 = document.querySelector(".petit-container-droite");
+        fetch("https://www.theaudiodb.com/api/v1/json/2/artist.php?i=170446")
+            .then(response => response.json())
+            .then(result => {
+                console.log(result.artists[0].strBiographyFR);
+                let texte = document.createElement("p");
+                textContent = result.artists[0].strBiographyFR;
+                texte.innerHTML = textContent; //on met le content dans le p)
+                emplacement2.appendChild(texte); //(on ajoute le p rempli dans le container)
+            });
     </script>
   </body>
 
