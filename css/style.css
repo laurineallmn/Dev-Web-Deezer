@@ -111,6 +111,7 @@ img {
   background-color: #0c2414;
 }
 
+/* Body */
 .grand_texte {
   color: #fff;
   text-align: right;
@@ -289,6 +290,16 @@ section {
 
 #logoFooter {
   padding-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .contenuDuFooter p {
+    font-size: 15px;
+  }
+
+  .contenuDuFooter h4 {
+    font-size: 17px;
+  }
 }
 
 /* Page de contact*/
