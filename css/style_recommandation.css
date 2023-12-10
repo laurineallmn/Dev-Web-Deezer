@@ -107,11 +107,11 @@ img {
 .uneDesColonnes {
   padding: 0px 5px;
   height: 300px;
-  width: 650px;
+  width: 600px;
   margin-top: 3vh;
   margin-bottom: 3vh;
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 2vw;
+  margin-right: 2vw;
   transition: 0.3s;
 }
 
