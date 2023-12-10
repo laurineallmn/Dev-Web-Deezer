@@ -294,15 +294,24 @@ span {
     width: 7vw;
   }
 
+  .petit-container-gauche h4 {
+    font-size: 3vw;
+  }
+
   .petit-container-gauche #bouton-play {
     grid-area: bouton-play;
   }
   .petit-container-droite {
     text-align: center;
-    margin: 5vw;
+    margin-top: 0vw;
+    margin-bottom: 3vw;
+    margin-left: 3vw;
+    margin-right: 3vw;
   }
   .petit-container-droite p {
     font-size: 3vw;
+    margin-left: 1vw;
+    margin-right: 1vw;
   }
   .petit-container-droite h2 {
     font-size: 5vw;
