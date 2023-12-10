@@ -200,3 +200,13 @@ section {
 #logoFooter {
   padding-top: 10px;
 }
+
+@media screen and (max-width: 900px) {
+  .contenuDuFooter p {
+    font-size: 15px;
+  }
+
+  .contenuDuFooter h4 {
+    font-size: 17px;
+  }
+}

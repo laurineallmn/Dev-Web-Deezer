@@ -38,9 +38,9 @@ html {
   /* background-color: #ffffff; */
   background: linear-gradient(
     0deg,
-    rgba(0, 0, 0, 1) 55%,
-    rgba(0, 255, 83, 1) 81%,
-    rgba(0, 0, 0, 1) 82%
+    rgba(0, 0, 0, 1) 65%,
+    rgba(0, 255, 83, 1) 79%,
+    rgba(0, 0, 0, 1) 85%
   );
 }
 
@@ -588,6 +588,16 @@ section {
 
 #logoFooter {
   padding-top: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  .contenuDuFooter p {
+    font-size: 15px;
+  }
+
+  .contenuDuFooter h4 {
+    font-size: 17px;
+  }
 }
 
 /* Page de contact*/
