@@ -289,21 +289,11 @@ span {
     grid-area: img-photo-profil;
     width: 30vw;
   }
-  .data-chanteur {
-    grid-area: data;
-    display: flex;
-    flex-direction: row;
-    /* justify-content: space-between; */
-    align-items: center;
-    /* margin-top: 2vw;
-        margin-bottom: 2vw; */
-    /* align-content: unset; */
-  }
 
   .petit-container-gauche img {
     width: 7vw;
   }
-  
+
   .petit-container-gauche #bouton-play {
     grid-area: bouton-play;
   }
