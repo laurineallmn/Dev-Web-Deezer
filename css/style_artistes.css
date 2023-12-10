@@ -98,6 +98,15 @@ html {
   /*margin-top: 0vw; */
 }
 
+.petit-container-gauche h4 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  font-size: 2vw;
+  text-align: center;
+  padding-top: 1vw;
+  padding-bottom: 1vw;
+}
+
 #photo-profil img {
   width: 20vw;
   border-radius: 200px;
@@ -290,6 +299,11 @@ span {
         margin-bottom: 2vw; */
     /* align-content: unset; */
   }
+
+  .petit-container-gauche img {
+    width: 7vw;
+  }
+  
   .petit-container-gauche #bouton-play {
     grid-area: bouton-play;
   }
