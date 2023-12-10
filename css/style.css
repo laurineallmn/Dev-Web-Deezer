@@ -119,7 +119,7 @@ img {
 
 .texteEttelephone {
   background-color: #000000;
-  background-image: url("/Elements Visuelles/Elements home page/téléphone\ étoilé\ entier.png");
+  background-image: url("../Elements Visuelles/Elements home page/téléphone\ étoilé\ entier.png");
   background-position: left;
   background-size: cover;
   background-repeat: no-repeat;
@@ -371,5 +371,5 @@ section {
 }
 
 .uneDesColonnes a:hover {
-  filter: brightness(110%);
+  filter: brightness(125%);
 }

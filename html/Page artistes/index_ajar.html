@@ -4,10 +4,10 @@
     <title>Discovery - Ajar</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta charset="UTF-8" />
-    <link href="/css/style_artistes.css" rel="stylesheet" />
+    <link href="../../css/style_artistes.css" rel="stylesheet" />
     <link
       rel="shortcut icon"
-      href="/Elements Visuelles/Elements Home page/Logo.png"
+      href="../../Elements Visuelles/Elements Home page/Logo.png"
       type="image/x-icon"
     />
   </head>
@@ -16,9 +16,9 @@
     <nav class="barre_de_navigation">
       <div class="container">
         <div class="logo">
-          <a href="/html/Home page/index.html">
+          <a href="../Home page/index.html">
             <img
-              src="/Elements Visuelles/Elements Home page/Logo + texte 2.svg"
+              src="../../Elements Visuelles/Elements Home page/Logo + texte 2.svg"
               alt="Logo Discovery"
             />
           </a>
@@ -32,14 +32,14 @@
               <a class="texte_navbar" id = "deuxPoints" href="#"> : </a>
             </li>
             <li>
-              <a class="bouton_navbar" href="/html/Page artistes/index_ajar.html">Ajar</a>
+              <a class="bouton_navbar" href="../Page artistes/index_ajar.html">Ajar</a>
             </li>
             <li>
-              <a class="bouton_navbar" href="/html/Page artistes/indexHatfelt.html">Ha:tfelt</a>
+              <a class="bouton_navbar" href="../Page artistes/indexHatfelt.html">Ha:tfelt</a>
             </li>
   
             <li>
-              <a class="bouton_navbar" href="/html/Page artistes/indexTerrenoire.html">Terrenoire</a>
+              <a class="bouton_navbar" href="../Page artistes/indexTerrenoire.html">Terrenoire</a>
             </li>
           </ul>
         </div>
@@ -51,7 +51,7 @@
   <body>
     <div class="bandeau-chanteur">
       <h1>AJAR</h1>
-      <img src="/Elements Visuelles/page_artiste/ajar_horizontal (1).jpg" alt="photo artiste" />
+      <img src="../../Elements Visuelles/page_artiste/ajar_horizontal (1).jpg" alt="photo artiste" />
     </div>
 
     <div class="container-body">
@@ -62,7 +62,7 @@
         <h3 id="artiste-presentation">&nbsp Ajar c'est...</h3>
         <div class="data-chanteur">
           <div class="abonnes-yt">
-            <span id="data-artist-1">68 MILLE</span>
+            <span id="data-artist-1">68 000</span>
             <p>ABONNÉS SUR YOUTUBE</p>
           </div>
           <div class="nb-morceaux">
@@ -76,7 +76,7 @@
 
         <a href="https://www.youtube.com/watch?v=NrLwaY40D94">
           <span id="bouton-play"
-            ><img src="/Elements Visuelles/page_artiste/logo/bouton_lancement.png" alt="bouton_play"
+            ><img src="../../Elements Visuelles/page_artiste/logo/bouton_lancement.png" alt="bouton_play"
           /></span>
         </a>
       </div>
@@ -89,89 +89,56 @@
       <h4>Écoute maintenant sur</h4>
       <div id="spotify">
         <a href="https://open.spotify.com/intl-fr/artist/46OlTXwi8hanoxXHTE7E5z"
-          ><img src="/Elements Visuelles/page_artiste/logo/logo_spotify.png" alt="logo_spotify"
+          ><img src="../../Elements Visuelles/page_artiste/logo/logo_spotify.png" alt="logo_spotify"
         /></a>
       </div>
       <div id="deezer">
         <a href="https://www.deezer.com/fr/artist/3601941"
-          ><img src="/Elements Visuelles/page_artiste/logo/logo_deezer.png" alt="logo_deezer"
+          ><img src="../../Elements Visuelles/page_artiste/logo/logo_deezer.png" alt="logo_deezer"
         /></a>
       </div>
       <div id="amazon_music">
         <a href="https://music.amazon.fr/artists/B0025QBF4M/ajar"
-          ><img src="/Elements Visuelles/page_artiste/logo/logo_amazon_music.png" alt="logo_amazon_music"
+          ><img src="../../Elements Visuelles/page_artiste/logo/logo_amazon_music.png" alt="logo_amazon_music"
         /></a>
       </div>
       <div id="sound_cloud">
         <a href="https://soundcloud.com/emile_ajar"
-          ><img src="/Elements Visuelles/page_artiste/logo/logo_soundcloud.png" alt="logo_soundcloud"
+          ><img src="../../Elements Visuelles/page_artiste/logo/logo_soundcloud.png" alt="logo_soundcloud"
         /></a>
       </div>
       <div id="apple_music">
         <a href="https://music.apple.com/fr/artist/ajar/1364200470"
-          ><img src="/Elements Visuelles/page_artiste/logo/logo_apple_music.png" alt="logo_apple_music"
+          ><img src="../../Elements Visuelles/page_artiste/logo/logo_apple_music.png" alt="logo_apple_music"
         /></a>
       </div>
       <div id="youtube">
         <a href="https://www.youtube.com/@Ajarloup"
-          ><img src="/Elements Visuelles/page_artiste/logo/logo_youtube.png" alt="logo_youtube"
+          ><img src="../../Elements Visuelles/page_artiste/logo/logo_youtube.png" alt="logo_youtube"
         /></a>
       </div>
     </div>
 
-    <script>
-      ///a mettre dans le html
-      // <!-- <p id="bio">
-      // </p> -->
-      ///////
-      // fetch("https://www.theaudiodb.com/api/v1/json/2/artist.php?i=177705")
-      //     .then(response => response.json())
-      //     .then(result => {
-      //         console.log(result.artists[0].strBiographyFR);
-      //         document.getElementById("bio").textContent = result.artists[0].strBiographyFR;
-      //     })
-
-      let emplacement1 = document.querySelector("#photo-profil");
-      fetch("https://www.theaudiodb.com/api/v1/json/2/artist.php?i=177705")
-        .then((response) => response.json())
-        .then((result) => {
-          console.log(result.artists[0].strArtistThumb);
-          let image = document.createElement("img");
-          imageContent = result.artists[0].strArtistThumb;
-          image.src = imageContent;
-          emplacement1.appendChild(image);
-        });
-
-      let emplacement2 = document.querySelector(".petit-container-droite");
-      fetch("https://www.theaudiodb.com/api/v1/json/2/artist.php?i=177705")
-        .then((response) => response.json())
-        .then((result) => {
-          console.log(result.artists[0].strBiographyFR);
-          let texte = document.createElement("p");
-          textContent = result.artists[0].strBiographyFR;
-          texte.innerHTML = textContent; //on met le content dans le p)
-          emplacement2.appendChild(texte); //(on ajoute le p rempli dans le container)
-        });
-    </script>
+    <script type="text/javascript" src="../../JavaScript/js_ajar.js" async></script>
   </body>
 
   <footer> 
     <section class="footer">
       <div class="contenuDuFooter">
         <div id="logoFooter"> 
-        <img src="/Elements Visuelles/Elements Home page/Logo + texte 2.svg" alt="Logo Discovery">
+        <img src="../../Elements Visuelles/Elements Home page/Logo + texte 2.svg" alt="Logo Discovery">
         </div>
       </div>
       <div class="contenuDuFooter">
         <li></a><h4>Discovery</h4></li>
-        <li><a href="/html/Home page/index.html"><p>Home</p></a></li>
-        <li><a href="/html/Page de suggestions/recommandations.html"><p>Suggestions</p></a></li>
+        <li><a href="../Home page/index.html"><p>Home</p></a></li>
+        <li><a href="../Page de suggestions/recommandations.html"><p>Suggestions</p></a></li>
       </div>
 
       <div class="contenuDuFooter">
         <li><a href=""></a><h4>Entreprise</h4></a></li>
-        <li><a href="/html/Pages footer/PageNousContacter.html"><p>Nous contacter</p></a></li>
-        <li><a href="/html/Pages footer/Page Crédis.html"><p>Crédits</p></a></li>
+        <li><a href="../Pages footer/PageNousContacter.html"><p>Nous contacter</p></a></li>
+        <li><a href="../Pages footer/Page Crédis.html"><p>Crédits</p></a></li>
       </div>
 
       <div class="contenuDuFooter">
