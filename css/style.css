@@ -121,7 +121,7 @@ img {
   background-color: #000000;
   background-image: url("../Elements Visuelles/Elements home page/téléphone\ étoilé\ entier.png");
   background-position: left;
-  background-size: cover;
+  background-size:cover;
   background-repeat: no-repeat;
   height: 100vh;
 }
@@ -168,6 +168,12 @@ img {
   margin-right: 3vw;
   white-space: nowrap;
   /* margin-left: 800px; */
+}
+
+@media screen and (max-width: 1400px) {
+  .texteEttelephone {
+    height: 60vh;
+  }
 }
 
 @media screen and (max-width: 900px) {
